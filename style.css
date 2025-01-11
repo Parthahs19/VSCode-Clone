@@ -1,0 +1,227 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(https://images.pond5.com/pastel-colour-gradient-background-loop-footage-236674134_iconl.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: honeydew;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.8);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar nav a {
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.navbar nav a:hover {
+    color: #1e90ff;
+}
+
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 35px;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 10px 0;
+    border-radius: 5px;
+    min-width: 150px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 8px 15px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.dropdown-content a:hover {
+    background: #1e90ff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.heading {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.heading h1 {
+    margin: 15px 0;
+    font-size: 3rem;
+}
+
+.buttons {
+    margin: 30px 0;
+}
+
+.buttons button {
+    padding: 15px 25px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #007acc;
+    background: #fff;
+    transition: all 0.3s;
+}
+
+.buttons button:hover {
+    background: #1e90ff;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+
+.platform-link {
+    margin: 30px 0;
+    font-size: 1.1rem;
+}
+
+.platform-link a {
+    color: black;
+    border-bottom: 1px solid transparent;
+    transition: border 0.3s;
+}
+
+.platform-link a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.container {
+    margin: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container1{
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    gap: 10px;
+    margin: 50px;
+}
+
+.img{
+    height: 450px;
+    width: 600px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.textbox{
+    margin: 50px 100px;
+    padding: 50px;
+}
+
+.card{
+    margin: 30px;
+    background-color: blanchedalmond;
+}
+
+.mainimg{
+    border-radius: 15px;
+    margin: 15px 130px;
+}
+
+.iframe{
+  margin: 100px;
+}
+
+.footer {
+    background: #000;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+    
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #1e90ff;
+}
+
+    
+.footer-social {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.footer-social a img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s;
+}
+
+.footer-social a:hover img {
+    transform: scale(1.2);
+}
+
+    
+.footer-copyright {
+    font-size: 12px;
+    opacity: 0.8;
+}
